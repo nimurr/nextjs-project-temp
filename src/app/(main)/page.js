@@ -8,9 +8,9 @@ const Page = () => {
     console.log(data)
 
     return (
-        <div>
-            <h2 className='text-xl font-semibold text-center my-5'>Demo Api Data Get For Check Rediux </h2>
-            <div className='grid xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
+        <div className='container mx-auto'>
+            <h2 className='text-2xl font-semibold text-center my-5'>Demo Api Data Get For Check Rediux </h2>
+            <div className='grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
                 {
                     data?.map((item) => (
                         <div className='bg-purple-500 hover:bg-purple-600 rounded-lg p-5 text-white' key={item.id}>
