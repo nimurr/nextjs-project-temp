@@ -7,6 +7,12 @@
 Run the development server:
 
 ```bash
+git clone
+
+```bash
+npm install
+
+```bash
 npm run dev
 
 
