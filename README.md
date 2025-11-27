@@ -1,10 +1,13 @@
-✨ This is an Architecture Website Project built using Next.js along with tools like Tailwind CSS, Redux Toolkit, Ant Design, Swiper, React Toastify, and React Icons to create a smooth UI experience and efficient development workflow.
+✨ This is an Architecture Website Project built using **Next.js** along with tools like **Tailwind CSS**, **Redux Toolkit**, **Ant Design**, **Swiper**, **React Toastify**, and **React Icons** to create a smooth UI experience and efficient development workflow.
 
-Getting Started
+---
+
+## 🚀 Getting Started
 
 Run the development server:
 
-✅ npm run dev
+```bash
+npm run dev
 
 
 ☑️ Then open http://localhost:3000
