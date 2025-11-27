@@ -17,8 +17,6 @@ step:-3
 npm run dev
 
 
-
-
 ☑️ Then open http://localhost:3000
  in your browser.
 You can begin editing by modifying files inside the app/ or src/app/ directory — changes update automatically.
