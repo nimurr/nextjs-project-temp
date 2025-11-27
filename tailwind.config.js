@@ -1,16 +1,21 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        "./pages/**/*.{js,ts,jsx,tsx}", // Adjust paths to fit your project structure
-        "./components/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-        extend: {
-            colors: {
-                primary: "#1D4ED8", // Custom primary color
-                secondary: "#D97706", // Custom secondary color
-            },
-        },
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#fff000",
+        secondary: "#E5E5E5",
+        tertiary: "#D9D9D9",
+      }
     },
-    plugins: [],
-};
+  },
+  plugins: [],
+}

@@ -9,7 +9,7 @@ const Page = () => {
 
     return (
         <div className='container mx-auto'>
-            <h2 className='text-5xl font-semibold text-center my-10'>Demo Api Data Get For Check Rediux </h2>
+            <h2 className='text-5xl font-semibold bg-primary text-center my-10'>Demo Api Data Get For Check Rediux </h2>
             <div className='grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
                 {
                     data?.map((item) => (
