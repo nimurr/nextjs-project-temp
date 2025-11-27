@@ -8,12 +8,11 @@ Run the development server:
 
 ```bash
 git clone
-
-```bash
+<br/>
 npm install
-
-```bash
+<br/>
 npm run dev
+<br/><br/><br/>
 
 
 ☑️ Then open http://localhost:3000
